@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+router-outlet {
+    display: none;
+}
+
+app-root {
+    flex-grow: 1;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
