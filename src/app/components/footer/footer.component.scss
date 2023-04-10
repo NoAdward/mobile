@@ -1,0 +1,23 @@
+
+@import 'angular';
+
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .material-symbols-outlined {
+    color: #8b97a8;
+    transition: $transition;
+  }
+
+  a:hover {
+    color: #3d3270;
+  }
+}
+
+.active-link {
+  .material-symbols-outlined {
+    color: #3d3270;
+  }
+}

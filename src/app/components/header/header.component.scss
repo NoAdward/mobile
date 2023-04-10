@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .material-symbols-outlined {
+    color: #8b97a8;
+    cursor: pointer;
+  }
+  .title {
+    color: #595085;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+}
