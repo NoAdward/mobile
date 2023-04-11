@@ -2,7 +2,7 @@
   padding: 26px 0;
 }
 
-.tasks {
-    display: block;
+.tasks, .points {
+    display: grid;
     margin-top: 40px;
 }

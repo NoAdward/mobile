@@ -1,0 +1,60 @@
+:host {
+  display: grid;
+  gap: 10px;
+}
+
+.point {
+  display: block;
+  text-decoration: none;
+  background: #f6f5fb;
+  border-radius: 15px;
+  padding: 23px 20px;
+  position: relative;
+  padding-right: 44px;
+  display: flex;
+  gap: 10px;
+
+  &__icon {
+    color: #403572;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #403572;
+    margin-bottom: 10px;
+  }
+
+  &__desc {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #403572;
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    color: #403572;
+  }
+  &._pink {
+    background: #fff4f4;
+    border-radius: 15px;
+    .point__arrow,
+    .point__icon {
+      color: #ff5648;
+    }
+    .point__title {
+      color: #ff5648;
+    }
+    .point__desc {
+      color: #a27a7a;
+      opacity: 0.7;
+    }
+  }
+}

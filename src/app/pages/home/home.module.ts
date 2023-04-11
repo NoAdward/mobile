@@ -4,6 +4,7 @@ import { HomeComponent } from './home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NewsComponent } from './news/news.component';
 import { TasksComponent } from './tasks/tasks.component';
+import { PointsComponent } from './points/points.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   declarations: [
     HomeComponent,
     NewsComponent,
-    TasksComponent
+    TasksComponent,
+    PointsComponent
   ],
   imports: [
     CommonModule,
