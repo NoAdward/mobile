@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NotFoundError } from 'rxjs';
+import { ServeComponent } from './serve/serve.component';
 
 
 
@@ -26,7 +27,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ServeComponent
   ],
   imports: [
     BrowserModule,

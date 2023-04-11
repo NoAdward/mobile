@@ -1,0 +1,34 @@
+.news {
+    &__title {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 28px;
+      color: #595085;
+    }
+  
+    &__list {
+      margin-top: 15px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    &__item {
+      text-decoration: none;
+      padding: 20px;
+      border-radius: 15px;
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      color: #ffffff;
+      &._pink {
+        background: linear-gradient(90deg, #25196b 0%, #d994a7 100%);
+      }
+      &._green {
+        background: linear-gradient(90deg, #25196b 0%, #94d9cd 100%);
+      }
+    }
+  }

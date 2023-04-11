@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NewsComponent } from './news/news.component';
+import { TasksComponent } from './tasks/tasks.component';
 
 
 const routes: Routes = [
@@ -12,7 +14,9 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    NewsComponent,
+    TasksComponent
   ],
   imports: [
     CommonModule,
